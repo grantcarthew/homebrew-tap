@@ -8,6 +8,7 @@ class Snag < Formula
   depends_on "go" => :build
 
   def install
+    ENV["CGO_ENABLED"] = "0"
     system "go", "build", *std_go_args(ldflags: "-X main.version=0.0.1", output: bin/"snag")
   end
 
