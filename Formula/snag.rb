@@ -2,7 +2,7 @@ class Snag < Formula
   desc "Intelligently fetch web pages using Chrome via CDP"
   homepage "https://github.com/grantcarthew/snag"
   url "https://github.com/grantcarthew/snag/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "d3b8996df67f9581d420197c1827ac3da86dc26fa34c9421638447aab44757ad"
+  sha256 "450534e4e2eafb8653da8a8ef68b0ef6c554d8e49ae2778292e57061c9597536"
   license "MPL-2.0"
 
   depends_on "go" => :build
