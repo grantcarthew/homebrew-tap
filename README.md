@@ -6,20 +6,13 @@ Homebrew formulae for grantcarthew's CLI tools.
 
 ```bash
 brew tap grantcarthew/tap
-brew install snag
+brew install {package-name}
 ```
 
 ## Available Formulae
 
+- **kagi** - A fast, simple command-line interface for Kagi FastGPT - AI-powered search
 - **snag** - Intelligently fetch web pages using Chrome via CDP
-
-## Usage
-
-After installation, run any tool directly:
-
-```bash
-snag --help
-```
 
 ## License
 
