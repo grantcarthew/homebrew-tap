@@ -1,6 +1,6 @@
 # Homebrew Tap
 
-Homebrew formulae for grantcarthew's CLI tools.
+Homebrew formulae for Grant Carthew's CLI tools.
 
 ## Installation
 
@@ -11,8 +11,8 @@ brew install {package-name}
 
 ## Available Formulae
 
-- **kagi** - A fast, simple command-line interface for Kagi FastGPT - AI-powered search
-- **snag** - Intelligently fetch web pages using Chrome via CDP
+- [kagi](https://github.com/grantcarthew/kagi) - A kagi command-line tool to query the Kagi FastGPT search API
+- [snag](https://github.com/grantcarthew/snag) - Snag web pages like a polite robot with a browser
 
 ## License
 
