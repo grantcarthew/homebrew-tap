@@ -14,6 +14,7 @@ brew install {package-name}
 - [acon](https://github.com/grantcarthew/acon) - CLI for Confluence - because the web editor is not it
 - [kagi](https://github.com/grantcarthew/kagi) - A kagi command-line tool to query the Kagi FastGPT search API
 - [snag](https://github.com/grantcarthew/snag) - Snag web pages like a polite robot with a browser
+- [start](https://github.com/grantcarthew/start) - AI agent orchestrator for prompt composition and workflow automation
 
 ## License
 
