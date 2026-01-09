@@ -1,8 +1,8 @@
 class Ajira < Formula
   desc "Jira from your terminal - because browser tabs are overrated"
   homepage "https://github.com/grantcarthew/ajira"
-  url "https://github.com/grantcarthew/ajira/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "96189279e7b6b448c3de30dcee507ef3612444f45125437cba0f09c3781c24b1"
+  url "https://github.com/grantcarthew/ajira/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "fc085b1963ceb73595888232498a44d964574da6229726e40c453ea88e309f7c"
   license "MPL-2.0"
 
   depends_on "go" => :build
@@ -14,6 +14,6 @@ class Ajira < Formula
   end
 
   test do
-    assert_match "0.0.1", shell_output("#{bin}/ajira --version")
+    assert_match "0.1.0", shell_output("#{bin}/ajira --version")
   end
 end
