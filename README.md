@@ -16,6 +16,7 @@ brew install {package-name}
 - [chonkometer](https://github.com/grantcarthew/chonkometer) - Measure MCP server token consumption before installation
 - [kagi](https://github.com/grantcarthew/kagi) - A kagi command-line tool to query the Kagi FastGPT search API
 - [snag](https://github.com/grantcarthew/snag) - Snag web pages like a polite robot with a browser
+- [start](https://github.com/grantcarthew/start) - AI agent CLI orchestrator built on CUE
 
 ## License
 
