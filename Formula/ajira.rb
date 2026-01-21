@@ -2,7 +2,7 @@ class Ajira < Formula
   desc "Jira from your terminal - because browser tabs are overrated"
   homepage "https://github.com/grantcarthew/ajira"
   url "https://github.com/grantcarthew/ajira/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "429f0be1c3dc9546de76d5ca8a939d2fb8320f0417e5185414ba95a664dc1d7b"
   license "MPL-2.0"
 
   depends_on "go" => :build
