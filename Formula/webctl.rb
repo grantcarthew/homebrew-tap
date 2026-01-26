@@ -9,7 +9,7 @@ class Webctl < Formula
 
   def install
     ENV["CGO_ENABLED"] = "0"
-    system "go", "build", *std_go_args(ldflags: "-X main.version=0.0.1", output: bin/"webctl")
+    system "go", "build", *std_go_args(ldflags: "-X main.version=0.0.1"), "./cmd/webctl"
   end
 
   test do
