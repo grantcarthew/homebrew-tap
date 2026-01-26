@@ -17,6 +17,7 @@ brew install {package-name}
 - [kagi](https://github.com/grantcarthew/kagi) - A kagi command-line tool to query the Kagi FastGPT search API
 - [snag](https://github.com/grantcarthew/snag) - Snag web pages like a polite robot with a browser
 - [start](https://github.com/grantcarthew/start) - AI agent CLI orchestrator built on CUE
+- [webctl](https://github.com/grantcarthew/webctl) - CLI tool for browser automation and debugging, designed for AI agents
 
 ## License
 
