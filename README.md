@@ -9,7 +9,7 @@ brew tap grantcarthew/tap
 brew install {package-name}
 ```
 
-## Available Formulae
+## AI Agent Tools
 
 - [acon](https://github.com/grantcarthew/acon) - CLI for Confluence - because the web editor is not it
 - [ajira](https://github.com/grantcarthew/ajira) - Jira from your terminal - because browser tabs are overrated
@@ -18,6 +18,10 @@ brew install {package-name}
 - [snag](https://github.com/grantcarthew/snag) - Snag web pages like a polite robot with a browser
 - [start](https://github.com/grantcarthew/start) - AI agent CLI orchestrator built on CUE
 - [webctl](https://github.com/grantcarthew/webctl) - CLI tool for browser automation and debugging, designed for AI agents
+
+## General CLI Tools
+
+- [elgato](https://github.com/grantcarthew/elgato) - Control Elgato Key Light Air devices from your terminal
 
 ## License
 
