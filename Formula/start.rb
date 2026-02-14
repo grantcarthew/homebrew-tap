@@ -1,8 +1,8 @@
 class Start < Formula
   desc "AI agent CLI orchestrator built on CUE"
   homepage "https://github.com/grantcarthew/start"
-  url "https://github.com/grantcarthew/start/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "ee1aba283f579282b5758329ec9209a2db3939561b6177d1a9562726ce8090fe"
+  url "https://github.com/grantcarthew/start/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "32d8106b5f98f6dc06ef0382a250f0d959682558badca069c0eb31781312e446"
   license "MPL-2.0"
 
   depends_on "go" => :build
@@ -14,6 +14,6 @@ class Start < Formula
   end
 
   test do
-    assert_match "0.5.0", shell_output("#{bin}/start --version")
+    assert_match "0.5.1", shell_output("#{bin}/start --version")
   end
 end
