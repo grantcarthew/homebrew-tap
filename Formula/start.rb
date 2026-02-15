@@ -10,7 +10,8 @@ class Start < Formula
   def install
     ENV["CGO_ENABLED"] = "0"
     pkg = "github.com/grantcarthew/start/internal/cli"
-    ldflags = "-s -w -X #{pkg}.cliVersion=#{version} -X #{pkg}.commit=#{Utils.git_head} -X #{pkg}.buildDate=#{time.iso8601}"
+    commit = "4624a8c06a0ac93bdc3a1d02d2e63abeb675d5f6"
+    ldflags = "-s -w -X #{pkg}.cliVersion=#{version} -X #{pkg}.commit=#{commit} -X #{pkg}.buildDate=#{time.iso8601}"
     system "go", "build", *std_go_args(ldflags: ldflags), "./cmd/start"
   end
 
