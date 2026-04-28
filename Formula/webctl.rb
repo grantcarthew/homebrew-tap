@@ -1,8 +1,8 @@
 class Webctl < Formula
   desc "CLI tool for browser automation and debugging, designed for AI agents"
   homepage "https://github.com/grantcarthew/webctl"
-  url "https://github.com/grantcarthew/webctl/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "02576e88d09ab71b784246bc16374c8610a65e3a5a96ef4de4d1f9ca67b27104"
+  url "https://github.com/grantcarthew/webctl/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "233eec65d70a68a8a75d39376f57716678b1baaf7a6c8880d303df7058825864"
   license "MPL-2.0"
 
   depends_on "go" => :build
@@ -14,6 +14,6 @@ class Webctl < Formula
   end
 
   test do
-    assert_match "0.0.1", shell_output("#{bin}/webctl --version")
+    assert_match "0.1.0", shell_output("#{bin}/webctl --version")
   end
 end
